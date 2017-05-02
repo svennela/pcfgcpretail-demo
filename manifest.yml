@@ -1,0 +1,6 @@
+applications:
+  - name: pcfgcpretail-demo
+    buildpack: java_buildpack
+    path: target/pcfgcpretail-demo-0.0.1-SNAPSHOT.war
+    host: pcfgcpretaildemo
+    memory: 512M
