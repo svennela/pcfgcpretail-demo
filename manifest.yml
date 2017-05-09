@@ -1,6 +1,5 @@
 applications:
-  - name: pcfgcpretail-demo
-    buildpack: java_buildpack
+  - name: retail-demo-ui
     path: target/pcfgcpretail-demo-0.0.1-SNAPSHOT.war
-    host: pcfgcpretaildemo
+    host: retail-demo-ui
     memory: 512M
