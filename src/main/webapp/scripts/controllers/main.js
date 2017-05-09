@@ -11,9 +11,8 @@ angular.module('sbAdminApp')
 
     var loaddata = function(){
 
-            //$http.get('rest/getpaasview')
+            // EDIT THIS TO CORRESPOND TO THE URL OF YOUR "ds_app_15"
             $http.get('http://ds_app_15.apps.pcfongcp.com/lastMessage')
-            // $http.get('data/vision_labeled_tweet.json')
             .then(function(data){
 
                 console.log(data);
