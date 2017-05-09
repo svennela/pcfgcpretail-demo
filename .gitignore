@@ -20,3 +20,4 @@ nbproject/private/
 nbbuild/
 nbdist/
 .nb-gradle/
+.*.swp
