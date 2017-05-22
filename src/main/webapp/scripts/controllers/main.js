@@ -27,7 +27,7 @@ angular.module('sbAdminApp')
                     $scope.vision_labels = media[0].vision_labels;
                     console.log($scope.vision_labels);
 
-                    $scope.sentiment.score = 0.0;
+                    //$scope.sentiment.score = 0.0;
 
                     $scope.sentiment = $scope.sentimentdata.sentiment;
 
