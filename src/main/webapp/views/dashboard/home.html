@@ -48,8 +48,8 @@
 				<h3 class="ptxl">Google Cloud NLP API</h3>
 				<!-- NLP API results -->
                 <p class="man pan pbs">
-					<em>Magnitude:</em><br/>
-					<strong>{{sentiment.magnitude}}</strong>
+					<em>Sentiment:</em><br/>
+                    <img src="{{sentiment_icon_url}}" height="50px" width="50px" />
                 </p>
                 <p class="man pan pbs">
                     <em>Make offer?</em><br />
@@ -95,92 +95,6 @@
 						<p class="media-heading ptm">{{item.desc}}</p>
 					</div>
                 </div>
-<<<<<<< Updated upstream
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-3">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            GOOGLE CLOUD VISION API
-                        </div>
-                        <div class="panel-body">
-                            <p ng-repeat="vision in vision_labels">
-                                  <b>{{vision}}</b>
-                            </p>
-                        </div>
-
-
-                        <div class="panel-footer">
-                            INFORMATION
-                        </div>
-                    </div>
-
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            GOOGLE CLOUD NLP API
-                        </div>
-                        <div class="panel-body">
-                            <!-- <img src="{{sentiment.icon_url}}" alt="Sentiment" class="img-circle" /> -->
-                            <!-- <img src="{{sentiment_icon_url}}" /> -->
-                            <img src="{{sentiment_icon_url}}"/>
-                            <!--
-                            <p>
-                                Magnitude:  <b>{{sentiment.magnitude}}</b>
-                            </p>
-
-                            <p>
-                                Score:  <b>{{sentiment.score}}</b>
-                            </p>
-                            -->
-                        </div>
-
-                        <div class="panel-footer">
-                            INFORMATION
-                        </div>
-                    </div>
-                </div>
-
-                <!-- /.col-lg-4 -->
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-3">
-                    <div class="panel panel-success">
-                        <div class="panel-heading">
-                            RETAILER INVENTORY MATCH
-                        </div>
-                        <div class="panel-body">
-                            <p ng-repeat="item in offer_items">
-                            <img src="{{item.url}}" />
-
-                            {{item.desc}}
-                            </p>
-
-
-                          </div>
-                        <div class="panel-footer">
-                            INSIGHT
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col-lg-4 -->
-
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-3">
-                    <div class="panel panel-success">
-                        <div class="panel-heading">
-                            OUTGOING TWEET
-                        </div>
-                        <div class="panel-body">
-                      <p>{{offer_text}}</p>
-                        </div>
-                        <div class="panel-footer">
-                            ACTION
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col-lg-4 -->
-
-            </div>
-            <!-- /.row -->
-=======
 				<h3 class="ptxl">Retailer Location Match</h3>
 				<!-- Can be made up and hard-coded -->
 				<p class="man pan pbs">
@@ -213,4 +127,3 @@
 				</div>
 			</div>
 		</div>
->>>>>>> Stashed changes
