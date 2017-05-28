@@ -12,11 +12,11 @@ angular.module('sbAdminApp')
         var loaddata = function () {
 
             // EDIT THIS TO CORRESPOND TO THE URL OF YOUR "ds_app_15"
-            $http.get('http://ds_app_15.apps.pcfongcp.com/lastMessage')
+            $http.get('http://persistence.apps.pcfongcp.com/retailEvent/miapisjef/1')
                 .then(function (data) {
 
                     console.log(data);
-                    $scope.sentimentdata = data.data;
+                    $scope.sentimentdata = data.data[0];
 
                     // check for vision_labels
 
